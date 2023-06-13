@@ -7,6 +7,16 @@
     <title>UFs: Lista Sintética</title>
 </head>
 <body>
-    
+    <header>
+        <h2>Desenvolvimento <i>Web</i></h2>
+    </header>
+
+    <main>
+        <h1>Lista Sintética de Unidades da Federação do Brasil</h1>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 - Luis Guisso</p>
+    </footer>
 </body>
 </html>
