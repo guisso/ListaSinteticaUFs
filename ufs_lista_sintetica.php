@@ -33,6 +33,7 @@
             'expectativavida2016'
         ];
 
+        #region Dados sintéticos
         $dados = array(
             array(
                 'bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Bandeira_do_Acre.svg',
@@ -467,7 +468,7 @@
                 'expectativavida2016' => '73,4'
             )
         );
-
+        #endregion
         
         ?>
 
