@@ -59,7 +59,7 @@
             'População',
             'Densidade',
             'PIB',
-            'PIB ',
+            'PIB &percnt;',
             'PIB per capta',
             'IDH',
             'Alfabetização',
