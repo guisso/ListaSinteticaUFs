@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UFs: Lista Sintética</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400&display=swap');
+
+        body {
+            font-family: 'Barlow Condensed', sans-serif;
+        }
+
         table {
             border: solid medium black;
             border-collapse: collapse;
@@ -20,13 +26,18 @@
             background-color: #eee;
         }
 
-        th, td {
+        th,
+        td {
             text-align: center;
             padding: .25em .5em;
         }
 
         td:hover {
             background-color: #ddd;
+        }
+
+        img {
+            border: solid thin black;
         }
     </style>
 </head>
@@ -526,7 +537,7 @@
                         . ' width="50"></td>';
 
                     // Demais dados
-                    for ($i=1; $i < sizeof($estado); $i++) { 
+                    for ($i = 1; $i < sizeof($estado); $i++) {
                         $linha .= "<td title=\"{$chaves[$i]}\">" . $estado[$chaves[$i]] . '</td>';
                     }
 
