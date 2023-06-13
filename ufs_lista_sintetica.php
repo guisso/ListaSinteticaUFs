@@ -469,7 +469,7 @@
             )
         );
         #endregion
-        
+
         ?>
 
         <table>
@@ -494,7 +494,21 @@
 
             <tbody>
                 <?php
+                foreach ($dados as $estado) {
+                    $linha = '<tr>';
 
+                    // Bandeira
+                    $linha .= "<td><img src=\"{$estado['bandeira']}\""
+                        . " alt=\"Bandeira do {$estado['uf']}\""
+                        . " width=\"50\"></td>";
+
+                    // Demais dados
+                    
+
+                    $linha .= '</tr>';
+
+                    echo $linha . "\n";
+                }
                 ?>
             </tbody>
         </table>
