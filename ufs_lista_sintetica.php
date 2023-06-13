@@ -467,6 +467,14 @@
                 'expectativavida2016' => '73,4'
             )
         );
+
+        foreach ($dados as $estado) {
+            echo '<ul>';
+            foreach ($chaves as $chave) {
+                echo "<li>$chave: {$estado[$chave]}</li>";
+            }
+            echo '</ul>';
+        }
         ?>
     </main>
 
