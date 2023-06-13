@@ -500,10 +500,12 @@
                     // Bandeira
                     $linha .= "<td><img src=\"{$estado['bandeira']}\""
                         . " alt=\"Bandeira do {$estado['uf']}\""
-                        . " width=\"50\"></td>";
+                        . ' width="50"></td>';
 
                     // Demais dados
-                    
+                    for ($i=1; $i < sizeof($estado); $i++) { 
+                        $linha .= '<td>' . $estado[$chaves[$i]] . '</td>';
+                    }
 
                     $linha .= '</tr>';
 
