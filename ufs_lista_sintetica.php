@@ -8,9 +8,21 @@
     <title>UFs: Lista Sintética</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
 
         body {
-            font-family: 'Barlow Condensed', sans-serif;
+            /* font-family: 'Barlow Condensed', sans-serif; */
+            /* font-family: 'Playfair', serif; */
+            /* font-family: 'Cormorant Garamond', serif; */
+            /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+            /* font-family: 'Cardo', serif; */
+            font-family: 'Pathway Gothic One', sans-serif;
         }
 
         table {
@@ -26,10 +38,15 @@
             background-color: #eee;
         }
 
+        th {
+            width: calc(100% / 14);
+        }
+
         th,
         td {
             text-align: center;
             padding: .25em .5em;
+            text-shadow: 1px 1px 2px gray;
         }
 
         td:hover {
@@ -38,6 +55,7 @@
 
         img {
             border: solid thin black;
+            box-shadow: 1px 1px 2px gray;
         }
     </style>
 </head>
