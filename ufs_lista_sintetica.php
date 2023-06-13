@@ -468,14 +468,35 @@
             )
         );
 
-        foreach ($dados as $estado) {
-            echo '<ul>';
-            foreach ($chaves as $chave) {
-                echo "<li>$chave: {$estado[$chave]}</li>";
-            }
-            echo '</ul>';
-        }
+        
         ?>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Bandeira</th>
+                    <th>UF</th>
+                    <th>Sigla</th>
+                    <th>Sede Administrativa</th>
+                    <th>Área (km<sup>2</sup>)</th>
+                    <th>População (2014)</th>
+                    <th>Densidade (2005)</th>
+                    <th>PIB (R$) (2015)</th>
+                    <th>PIB (&percnt;) (2015)</th>
+                    <th>PIB (R$ <i>per capta</i>) (2015)</th>
+                    <th>IDH (2010)</th>
+                    <th>Alfabetização (2016)</th>
+                    <th>Mortalidade Infantil (&permil;) (2016)</th>
+                    <th>Expextativa de Vida (anos) (2016)</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <?php
+
+                ?>
+            </tbody>
+        </table>
     </main>
 
     <footer>
